@@ -138,7 +138,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Converters\TextToVisibilityConverter.cs" />
     <Compile Include="CultureInfoHelper.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
     <Compile Include="Helpers\Singleton.cs" />
