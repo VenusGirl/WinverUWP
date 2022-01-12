@@ -90,7 +90,7 @@ namespace WinverUWP
             Thickness currMargin = TitleBar.Margin;
             TitleBar.Margin = new Thickness(currMargin.Left, currMargin.Top, coreTitleBar.SystemOverlayRightInset, currMargin.Bottom);
         }
-
+        
         private void UpdateWindowsBrand()
         {
             BrandImage.Source = new SvgImageSource(
@@ -106,6 +106,7 @@ namespace WinverUWP
         {
             Application.Current.Exit();
         }
+
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
